@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 
 app.use('/api/users', userRoute);
 
-mongoose.connect('mongodb+srv://mine4christ:Minneok@cluster0.ge8e7.mongodb.net/')
+mongoose.connect('')
 .then(()=>{
     console.log('Database is connected');
 }).catch(err =>{
